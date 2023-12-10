@@ -1,0 +1,110 @@
+object Form1: TForm1
+  Left = 934
+  Height = 458
+  Top = 120
+  Width = 482
+  Caption = 'Библиотечный каталог'
+  ClientHeight = 458
+  ClientWidth = 482
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '2.2.6.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 458
+    Top = 0
+    Width = 127
+    Align = alLeft
+    TabOrder = 0
+  end
+  object bNewNode: TButton
+    Left = 1
+    Height = 25
+    Top = 1
+    Width = 125
+    Caption = 'Новый раздел'
+    OnClick = bNewNodeClick
+    TabOrder = 1
+  end
+  object bNewChildNode: TButton
+    Left = 1
+    Height = 25
+    Top = 27
+    Width = 125
+    Caption = 'Новый подраздел'
+    OnClick = bNewChildNodeClick
+    TabOrder = 2
+  end
+  object bDelete: TButton
+    Left = 1
+    Height = 25
+    Top = 53
+    Width = 125
+    Caption = 'Удалить'
+    OnClick = bDeleteClick
+    TabOrder = 3
+  end
+  object bEdit: TButton
+    Left = 1
+    Height = 25
+    Top = 78
+    Width = 125
+    Caption = 'Переименовать'
+    OnClick = bEditClick
+    TabOrder = 4
+  end
+  object bSort: TButton
+    Left = 1
+    Height = 25
+    Top = 103
+    Width = 125
+    Caption = 'Сортировать'
+    OnClick = bSortClick
+    TabOrder = 5
+  end
+  object bCollapse: TButton
+    Left = 1
+    Height = 25
+    Top = 128
+    Width = 125
+    Caption = 'Свернуть список'
+    OnClick = bCollapseClick
+    TabOrder = 6
+  end
+  object bExpand: TButton
+    Left = 1
+    Height = 25
+    Top = 153
+    Width = 125
+    Caption = 'Развернуть список'
+    OnClick = bExpandClick
+    TabOrder = 7
+  end
+  object TreeView1: TTreeView
+    Left = 127
+    Height = 458
+    Top = 0
+    Width = 360
+    Align = alLeft
+    TabOrder = 8
+  end
+  object ImageList1: TImageList
+    Width = 3
+    Left = 240
+    Top = 136
+    Bitmap = {
+      4C7A0200000003000000100000005D0100000000000078DA4D8EDF2B03010080
+      FF064F1E95941F57A21626911779F127F82BC48B128F3C88074A92F2ABFC08C3
+      8C85684B84CDDCDDEE8EDDCC38CCCC6CCE9DCC7CE4C9C3D7D7F7F6599685F58B
+      6DDB4C4A2F68C9B7BF6E5B35E83F7AA4F3D4646EF78471CF21D5DE1CAD079FD4
+      EC7CE1F07E52BF6D53B1F181C363D3E03111D64C6ADD268DEE2CC24A16E77A96
+      A6F534C2521AA72B4D932B49D9FC13CEE5271A160D4AA6EFA85D30A89F8D5234
+      7685634AC731A952382C52391EA66AC84F41DF1EC2A01F490E731E12117F6DFD
+      7B96F32A4AEE1229A720A654E44404397385FE6C60DC3E20657494FB1B6CF383
+      E3681029A690FFFE4634542E548DAF5C1E2516418BC749254D029A8C7E9FC2E5
+      3AC11F0CE23B16191DF1B1E73B64DF17A0BDBD8B8BF00D9296A0A5B99590F688
+      1ECD30D03B831E7B4796128C0CAD7079FDCAD15914A1BC87B3501CEF6E84D2E2
+      6E36B702CC2DF9A973763036E1E607B531317C
+    }
+  end
+end
