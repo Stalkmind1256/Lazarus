@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1683474143"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq &quot;-Fi/home/andrey/Рабочий стол/l4/lib/x86_64-linux&quot; -Fu/usr/lib/lazarus/lcl/units/x86_64-linux/qt5 -Fu/usr/lib/lazarus/lcl/units/x86_64-linux -Fu/usr/lib/lazarus/components/freetype/lib/x86_64-linux -Fu/usr/lib/lazarus/components/lazutils/lib/x86_64-linux -Fu/usr/lib/lazarus/packager/units/x86_64-linux &quot;-Fu/home/andrey/Рабочий стол/l4/&quot; &quot;-FU/home/andrey/Рабочий стол/l4/lib/x86_64-linux/&quot; &quot;-FE/home/andrey/Рабочий стол/l4/&quot; &quot;-o/home/andrey/Рабочий стол/l4/project4_1&quot; -dLCL -dLCLqt5 project4_1.lpr"/>
+</CONFIG>
